@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="icon" href="smile.png" type="image/gif" sizes="16x16">
+		<link rel="stylesheet" href="style.css">
+		<title> Text to Morse Converter </title>		
+	</head>
+
+	<body>
+	
+		<h1>Message Translator</h1>
+		
+		<hr>
+		
+		<div class="container d-flex justify-content-around align-items-center">
+		
+			<div>
+				<b>Input</b><br>
+				<textarea id="input" cols="50" rows="10"></textarea>	
+			</div>
+			<button class="btn btn-md px-3 btn-outline-dark" onclick="TextToMorseCode()">TextToMorseCode</button>
+			<button class="btn btn-md px-3 btn-outline-dark" onclick="MorseCodeToText()">MorseCodeToText</button>
+			<button class="btn btn-md px-3 btn-outline-dark" onclick="Clear()">Clear</button>
+			<div>
+				<b>Output</b><br>
+				<textarea id="output" cols="50" rows="10"></textarea>
+			</div>
+		
+		</div>
+		<link rel="stylesheet" href="styles.css">
+		<script src="main.js"></script>
+	
+	</body>
+	
+
+
+</html>

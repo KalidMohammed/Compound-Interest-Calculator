@@ -1,0 +1,21 @@
+body{
+	background-color: #542f8b;
+	background-image: url("css-dot-pattern-grid-background.png");
+	background-color:#542f8b;
+	font-family: 'Black Ops One', Arial, Helvetica, sans-serif;
+	font-size: 60px;
+
+    background-color: rgb(33, 68, 68);
+}
+
+button{
+	background: rgb(28, 184, 65)
+}
+
+
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-style: normal;
+	color: rgb(29, 29, 29);
+}
